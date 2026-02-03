@@ -1,0 +1,49 @@
+name: music_library_app
+description: A cross-platform Flutter app for downloading, keeping and syncing a music/media library on mobile devices.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0+2
+  path: ^1.8.3
+  dio: ^5.3.2
+  permission_handler: ^11.0.1
+  path_provider: ^2.1.1
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  flutter_local_notifications: ^20.0.0
+  shared_preferences: ^2.2.2
+  file_picker: ^8.0.0
+  cached_network_image: ^3.3.0
+  flutter_staggered_grid_view: ^0.7.0
+  shimmer: ^3.0.0
+  device_info_plus: ^9.1.0
+  package_info_plus: ^4.2.0
+  desktop_window: ^0.4.0
+  window_manager: ^0.3.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#000000"
+  remove_alpha_ios: true
